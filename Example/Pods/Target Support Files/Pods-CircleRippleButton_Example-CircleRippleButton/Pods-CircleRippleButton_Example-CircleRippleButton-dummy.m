@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CircleRippleButton_Example_CircleRippleButton : NSObject
+@end
+@implementation PodsDummy_Pods_CircleRippleButton_Example_CircleRippleButton
+@end

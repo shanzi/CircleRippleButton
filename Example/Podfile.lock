@@ -1,0 +1,14 @@
+PODS:
+  - CircleRippleButton (0.1.0)
+
+DEPENDENCIES:
+  - CircleRippleButton (from `../`)
+
+EXTERNAL SOURCES:
+  CircleRippleButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CircleRippleButton: 4be28565f5197f0aea3c47496b7cfbade79fb74c
+
+COCOAPODS: 0.37.2

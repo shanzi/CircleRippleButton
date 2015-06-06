@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4BF0C7D8647E1A6546203A /* CircleRippleButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09B16CDACBA6A2A6469950F4 /* CircleRippleButton.bundle */; };
+		1CF82E5A2411A7DE65E288AD /* Pods-CircleRippleButton_Tests-CircleRippleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C635EBA139F63ACCE1EA1D /* Pods-CircleRippleButton_Tests-CircleRippleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EFFC16F9543BBE85C47BB67 /* Pods-CircleRippleButton_Example-CircleRippleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FB8F23D10C4B0143A95511 /* Pods-CircleRippleButton_Example-CircleRippleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FEEA62A8BEF83BDCB4DF6AD /* Pods-CircleRippleButton_Example-CircleRippleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 771B7575482AED696B0D82FC /* Pods-CircleRippleButton_Example-CircleRippleButton-dummy.m */; };
+		20CE00BE24F8062C318CAA9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDBDCA7DB8724769F2C601 /* Foundation.framework */; };
+		3D6EC5D4FC6452A53CAFB7D3 /* CircleRippleButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C3E52511F875AECBDDD130C6 /* CircleRippleButton.bundle */; };
+		6DBFD29526489B4407F9AD09 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A86C0B5978BD7CF4C2DA8 /* ReplaceMe.swift */; };
+		7693C04720395EA625307AF3 /* Pods-CircleRippleButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F8369BDDDF96F71D28294A /* Pods-CircleRippleButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E8E7E06367E0E43EBA216EC /* Pods-CircleRippleButton_Tests-CircleRippleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA0DD7E6D1485106EFC6BDB /* Pods-CircleRippleButton_Tests-CircleRippleButton-dummy.m */; };
+		A7EF6994F2B9F661DD60FB2C /* Pods-CircleRippleButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF5A2F96EA62C0F285809AA /* Pods-CircleRippleButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC1A58119636ABA7A1D1138F /* Pods-CircleRippleButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EBF0D72705E4B336C5A09 /* Pods-CircleRippleButton_Example-dummy.m */; };
+		ADF18125F16162F037F68CF2 /* Pods-CircleRippleButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B75AF2F8DC06BBEE3946DD /* Pods-CircleRippleButton_Tests-dummy.m */; };
+		C175052C2C9FB4490856B15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDBDCA7DB8724769F2C601 /* Foundation.framework */; };
+		C8FAFFD2C5A8788D1DBC33F0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A86C0B5978BD7CF4C2DA8 /* ReplaceMe.swift */; };
+		D6C539BFFDADFEB9C736FFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDBDCA7DB8724769F2C601 /* Foundation.framework */; };
+		F5E7C0D7968039A475ADD6EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDBDCA7DB8724769F2C601 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29617017FDC00432BC3D7762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953091C56F81F6D9BAA80731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26658CF0BDA044C4C61081C;
+			remoteInfo = "Pods-CircleRippleButton_Example-CircleRippleButton";
+		};
+		4FE50D528A32F8CC6B2B37CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953091C56F81F6D9BAA80731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C3F62505F1F053AFE92C32;
+			remoteInfo = "Pods-CircleRippleButton_Example-CircleRippleButton-CircleRippleButton";
+		};
+		7648230454B59DB141685301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953091C56F81F6D9BAA80731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82A77998B5E2C3C56CF544F5;
+			remoteInfo = "Pods-CircleRippleButton_Tests-CircleRippleButton-CircleRippleButton";
+		};
+		BF277426F845607A19C59BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953091C56F81F6D9BAA80731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DD398001B41784B7330CE3;
+			remoteInfo = "Pods-CircleRippleButton_Tests-CircleRippleButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090EBF0D72705E4B336C5A09 /* Pods-CircleRippleButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircleRippleButton_Example-dummy.m"; sourceTree = "<group>"; };
+		0976CD65D292B5D9E0C63718 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B16CDACBA6A2A6469950F4 /* CircleRippleButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleRippleButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C635EBA139F63ACCE1EA1D /* Pods-CircleRippleButton_Tests-CircleRippleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CircleRippleButton_Tests-CircleRippleButton-umbrella.h"; path = "../Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton-umbrella.h"; sourceTree = "<group>"; };
+		1B658CFB725E22C13147CAA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA0DD7E6D1485106EFC6BDB /* Pods-CircleRippleButton_Tests-CircleRippleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-CircleRippleButton_Tests-CircleRippleButton-dummy.m"; path = "../Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton-dummy.m"; sourceTree = "<group>"; };
+		1C4F1FB35D1D671EB569F7C6 /* Pods-CircleRippleButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CircleRippleButton_Tests.modulemap"; sourceTree = "<group>"; };
+		25F8369BDDDF96F71D28294A /* Pods-CircleRippleButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleRippleButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		28F64A257DB616EEE7A63245 /* Pods-CircleRippleButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleRippleButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		29E6A20EA893E01B92F24731 /* Pods-CircleRippleButton_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleRippleButton_Example-environment.h"; sourceTree = "<group>"; };
+		2CF5A2F96EA62C0F285809AA /* Pods-CircleRippleButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleRippleButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		33EFE82B205AF73036D3B6B8 /* Pods-CircleRippleButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircleRippleButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3580EA8C5BDCD5DA68D5C553 /* Pods-CircleRippleButton_Example-CircleRippleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleRippleButton_Example-CircleRippleButton.xcconfig"; sourceTree = "<group>"; };
+		398E237E931E5CC891B7898D /* Pods-CircleRippleButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CircleRippleButton_Example.modulemap"; sourceTree = "<group>"; };
+		39969F1D940617DAA911B5BF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		49E76B8AB8B6960DCB4C9611 /* Pods-CircleRippleButton_Example-CircleRippleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleRippleButton_Example-CircleRippleButton-prefix.pch"; sourceTree = "<group>"; };
+		4B8405FF3C58A3B8BDBF353E /* Pods-CircleRippleButton_Example-CircleRippleButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleRippleButton_Example-CircleRippleButton-Private.xcconfig"; sourceTree = "<group>"; };
+		4BB6BD187522017CF955C5FD /* Pods-CircleRippleButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleRippleButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		503EDEA91435F0AE2BA22ED0 /* Pods-CircleRippleButton_Tests-CircleRippleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-CircleRippleButton_Tests-CircleRippleButton.modulemap"; path = "../Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton.modulemap"; sourceTree = "<group>"; };
+		5E88DC935F994D72D784ABDE /* Pods-CircleRippleButton_Example-CircleRippleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CircleRippleButton_Example-CircleRippleButton.modulemap"; sourceTree = "<group>"; };
+		60B75AF2F8DC06BBEE3946DD /* Pods-CircleRippleButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircleRippleButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		65AC113548C10156BD32B1C8 /* Pods-CircleRippleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleRippleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		65B927E3C2B3371E0B2C5003 /* Pods-CircleRippleButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleRippleButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6CBCEEEE1D4D481E25E53F30 /* Pods_CircleRippleButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleRippleButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD4CD061B19EAF4E27EBA5C /* CircleRippleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleRippleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		713D86364F003EB77A50EB62 /* Pods-CircleRippleButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleRippleButton_Example-resources.sh"; sourceTree = "<group>"; };
+		73D89E20A6E4FB27CCA90241 /* Pods-CircleRippleButton_Tests-CircleRippleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CircleRippleButton_Tests-CircleRippleButton-prefix.pch"; path = "../Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton-prefix.pch"; sourceTree = "<group>"; };
+		75CDBDCA7DB8724769F2C601 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		771B7575482AED696B0D82FC /* Pods-CircleRippleButton_Example-CircleRippleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircleRippleButton_Example-CircleRippleButton-dummy.m"; sourceTree = "<group>"; };
+		7A9A86C0B5978BD7CF4C2DA8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		7B035FE0CBE48B6CA4F9AE3E /* Pods-CircleRippleButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircleRippleButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B092F969954828C505C1A39 /* Pods-CircleRippleButton_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleRippleButton_Tests-environment.h"; sourceTree = "<group>"; };
+		97E4BCD619D49F15F2FDB5F5 /* CircleRippleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleRippleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A268286F9A2973763177D7CF /* Pods-CircleRippleButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleRippleButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A57F595C5DEB28CE546BDA4E /* Pods-CircleRippleButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleRippleButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		B5215E16A53D2CDB8816A40F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-CircleRippleButton_Tests-CircleRippleButton/Info.plist"; sourceTree = "<group>"; };
+		BAE3F3B72A5BEEC23E25C397 /* Pods-CircleRippleButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleRippleButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BE0AD1082BF47A9C74B5E2D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6F948B3968DD91ACCAFA3A /* Pods-CircleRippleButton_Tests-CircleRippleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleRippleButton_Tests-CircleRippleButton.xcconfig"; path = "../Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton.xcconfig"; sourceTree = "<group>"; };
+		C3E52511F875AECBDDD130C6 /* CircleRippleButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleRippleButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D695340F09F5B322D4756869 /* Pods-CircleRippleButton_Tests-CircleRippleButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleRippleButton_Tests-CircleRippleButton-Private.xcconfig"; path = "../Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton-Private.xcconfig"; sourceTree = "<group>"; };
+		E1654856DF2DD20EA3C25578 /* Pods-CircleRippleButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleRippleButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E92A01D70BC45B51CC85B361 /* Pods-CircleRippleButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleRippleButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAC8BBC1085A0EAA6332977E /* Pods_CircleRippleButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleRippleButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FB8F23D10C4B0143A95511 /* Pods-CircleRippleButton_Example-CircleRippleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleRippleButton_Example-CircleRippleButton-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E094187985C4903ED1AF450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CE00BE24F8062C318CAA9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3756EAB4B02771E02A086731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E7C0D7968039A475ADD6EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6769BC608041077687323F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9904C453BBF152D816E287E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C175052C2C9FB4490856B15D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59E3D788324BA861C0BFB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C539BFFDADFEB9C736FFC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E8FAC62CB136E1B0EDCEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B37BC1DEDC770BF488034B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75CDBDCA7DB8724769F2C601 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4BCA62E15D26195D9A2BE28C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8BAB8E0823C1C841435FE2 /* Pods-CircleRippleButton_Example */,
+				E6AC6C97FB3FD97E4FBD87AA /* Pods-CircleRippleButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		709176084D1B82682E13FCCD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE0FF3A929460FA57FCF4D7E /* CircleRippleButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AB9D40D88243E640987B4129 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11B37BC1DEDC770BF488034B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C56193BA68A9D7D63151CCE5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A9A86C0B5978BD7CF4C2DA8 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD8BAB8E0823C1C841435FE2 /* Pods-CircleRippleButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BE0AD1082BF47A9C74B5E2D4 /* Info.plist */,
+				398E237E931E5CC891B7898D /* Pods-CircleRippleButton_Example.modulemap */,
+				33EFE82B205AF73036D3B6B8 /* Pods-CircleRippleButton_Example-acknowledgements.markdown */,
+				28F64A257DB616EEE7A63245 /* Pods-CircleRippleButton_Example-acknowledgements.plist */,
+				090EBF0D72705E4B336C5A09 /* Pods-CircleRippleButton_Example-dummy.m */,
+				29E6A20EA893E01B92F24731 /* Pods-CircleRippleButton_Example-environment.h */,
+				E1654856DF2DD20EA3C25578 /* Pods-CircleRippleButton_Example-frameworks.sh */,
+				713D86364F003EB77A50EB62 /* Pods-CircleRippleButton_Example-resources.sh */,
+				25F8369BDDDF96F71D28294A /* Pods-CircleRippleButton_Example-umbrella.h */,
+				4BB6BD187522017CF955C5FD /* Pods-CircleRippleButton_Example.debug.xcconfig */,
+				65B927E3C2B3371E0B2C5003 /* Pods-CircleRippleButton_Example.release.xcconfig */,
+			);
+			name = "Pods-CircleRippleButton_Example";
+			path = "Target Support Files/Pods-CircleRippleButton_Example";
+			sourceTree = "<group>";
+		};
+		D36B3E0175AAA7BFF385A282 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B658CFB725E22C13147CAA4 /* Info.plist */,
+				B5215E16A53D2CDB8816A40F /* Info.plist */,
+				5E88DC935F994D72D784ABDE /* Pods-CircleRippleButton_Example-CircleRippleButton.modulemap */,
+				3580EA8C5BDCD5DA68D5C553 /* Pods-CircleRippleButton_Example-CircleRippleButton.xcconfig */,
+				4B8405FF3C58A3B8BDBF353E /* Pods-CircleRippleButton_Example-CircleRippleButton-Private.xcconfig */,
+				771B7575482AED696B0D82FC /* Pods-CircleRippleButton_Example-CircleRippleButton-dummy.m */,
+				49E76B8AB8B6960DCB4C9611 /* Pods-CircleRippleButton_Example-CircleRippleButton-prefix.pch */,
+				F3FB8F23D10C4B0143A95511 /* Pods-CircleRippleButton_Example-CircleRippleButton-umbrella.h */,
+				503EDEA91435F0AE2BA22ED0 /* Pods-CircleRippleButton_Tests-CircleRippleButton.modulemap */,
+				BF6F948B3968DD91ACCAFA3A /* Pods-CircleRippleButton_Tests-CircleRippleButton.xcconfig */,
+				D695340F09F5B322D4756869 /* Pods-CircleRippleButton_Tests-CircleRippleButton-Private.xcconfig */,
+				1BA0DD7E6D1485106EFC6BDB /* Pods-CircleRippleButton_Tests-CircleRippleButton-dummy.m */,
+				73D89E20A6E4FB27CCA90241 /* Pods-CircleRippleButton_Tests-CircleRippleButton-prefix.pch */,
+				09C635EBA139F63ACCE1EA1D /* Pods-CircleRippleButton_Tests-CircleRippleButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-CircleRippleButton_Example-CircleRippleButton";
+			sourceTree = "<group>";
+		};
+		E5218BD9FC34B2AE4B195D32 = {
+			isa = PBXGroup;
+			children = (
+				39969F1D940617DAA911B5BF /* Podfile */,
+				709176084D1B82682E13FCCD /* Development Pods */,
+				AB9D40D88243E640987B4129 /* Frameworks */,
+				EB04A715207D1915369CF68B /* Products */,
+				4BCA62E15D26195D9A2BE28C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E6AC6C97FB3FD97E4FBD87AA /* Pods-CircleRippleButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0976CD65D292B5D9E0C63718 /* Info.plist */,
+				1C4F1FB35D1D671EB569F7C6 /* Pods-CircleRippleButton_Tests.modulemap */,
+				7B035FE0CBE48B6CA4F9AE3E /* Pods-CircleRippleButton_Tests-acknowledgements.markdown */,
+				E92A01D70BC45B51CC85B361 /* Pods-CircleRippleButton_Tests-acknowledgements.plist */,
+				60B75AF2F8DC06BBEE3946DD /* Pods-CircleRippleButton_Tests-dummy.m */,
+				8B092F969954828C505C1A39 /* Pods-CircleRippleButton_Tests-environment.h */,
+				A268286F9A2973763177D7CF /* Pods-CircleRippleButton_Tests-frameworks.sh */,
+				A57F595C5DEB28CE546BDA4E /* Pods-CircleRippleButton_Tests-resources.sh */,
+				2CF5A2F96EA62C0F285809AA /* Pods-CircleRippleButton_Tests-umbrella.h */,
+				65AC113548C10156BD32B1C8 /* Pods-CircleRippleButton_Tests.debug.xcconfig */,
+				BAE3F3B72A5BEEC23E25C397 /* Pods-CircleRippleButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-CircleRippleButton_Tests";
+			path = "Target Support Files/Pods-CircleRippleButton_Tests";
+			sourceTree = "<group>";
+		};
+		EB04A715207D1915369CF68B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E52511F875AECBDDD130C6 /* CircleRippleButton.bundle */,
+				09B16CDACBA6A2A6469950F4 /* CircleRippleButton.bundle */,
+				97E4BCD619D49F15F2FDB5F5 /* CircleRippleButton.framework */,
+				6FD4CD061B19EAF4E27EBA5C /* CircleRippleButton.framework */,
+				EAC8BBC1085A0EAA6332977E /* Pods_CircleRippleButton_Example.framework */,
+				6CBCEEEE1D4D481E25E53F30 /* Pods_CircleRippleButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0762F84BE180864A68C267C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C56193BA68A9D7D63151CCE5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FE0FF3A929460FA57FCF4D7E /* CircleRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				F0762F84BE180864A68C267C /* Pod */,
+				D36B3E0175AAA7BFF385A282 /* Support Files */,
+			);
+			name = CircleRippleButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DD6EEE4C9E439867B2BB664 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7693C04720395EA625307AF3 /* Pods-CircleRippleButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A21CDEB328DB2F92397C3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFFC16F9543BBE85C47BB67 /* Pods-CircleRippleButton_Example-CircleRippleButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C7C801587A3B03F339FA26D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF82E5A2411A7DE65E288AD /* Pods-CircleRippleButton_Tests-CircleRippleButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0625CA2F621229F4907BF02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF6994F2B9F661DD60FB2C /* Pods-CircleRippleButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		126ED611C71251D3EC889FF3 /* Pods-CircleRippleButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6FC002F697B717B9B04D49 /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Example" */;
+			buildPhases = (
+				B32CB94FB4D821BB13BE98DC /* Sources */,
+				3756EAB4B02771E02A086731 /* Frameworks */,
+				1DD6EEE4C9E439867B2BB664 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9771E06AD4FE855E4B9A7669 /* PBXTargetDependency */,
+			);
+			name = "Pods-CircleRippleButton_Example";
+			productName = "Pods-CircleRippleButton_Example";
+			productReference = EAC8BBC1085A0EAA6332977E /* Pods_CircleRippleButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43C3F62505F1F053AFE92C32 /* Pods-CircleRippleButton_Example-CircleRippleButton-CircleRippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7290566D8AD6C6D1F7F28D /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Example-CircleRippleButton-CircleRippleButton" */;
+			buildPhases = (
+				92462591B93FA4C9880326A5 /* Sources */,
+				6769BC608041077687323F79 /* Frameworks */,
+				8741911BEAC760AE450CE30C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CircleRippleButton_Example-CircleRippleButton-CircleRippleButton";
+			productName = "Pods-CircleRippleButton_Example-CircleRippleButton-CircleRippleButton";
+			productReference = 09B16CDACBA6A2A6469950F4 /* CircleRippleButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		49DD398001B41784B7330CE3 /* Pods-CircleRippleButton_Tests-CircleRippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8775B76B649F5F4988D7406 /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Tests-CircleRippleButton" */;
+			buildPhases = (
+				631FC7467CCC0964181D05AA /* Sources */,
+				9904C453BBF152D816E287E4 /* Frameworks */,
+				FB406AF400EC3EDF1FFD7BA9 /* Resources */,
+				7C7C801587A3B03F339FA26D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5913E7FBF8E9A7C20516CDF /* PBXTargetDependency */,
+			);
+			name = "Pods-CircleRippleButton_Tests-CircleRippleButton";
+			productName = "Pods-CircleRippleButton_Tests-CircleRippleButton";
+			productReference = 6FD4CD061B19EAF4E27EBA5C /* CircleRippleButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82A77998B5E2C3C56CF544F5 /* Pods-CircleRippleButton_Tests-CircleRippleButton-CircleRippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEBBBD4D89035506718CC9C /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Tests-CircleRippleButton-CircleRippleButton" */;
+			buildPhases = (
+				74AA93068D64F38485E12443 /* Sources */,
+				E4E8FAC62CB136E1B0EDCEE7 /* Frameworks */,
+				26A9B298D18083ED02138D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CircleRippleButton_Tests-CircleRippleButton-CircleRippleButton";
+			productName = "Pods-CircleRippleButton_Tests-CircleRippleButton-CircleRippleButton";
+			productReference = C3E52511F875AECBDDD130C6 /* CircleRippleButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C26658CF0BDA044C4C61081C /* Pods-CircleRippleButton_Example-CircleRippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3287F8C6B0D74906D6B97947 /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Example-CircleRippleButton" */;
+			buildPhases = (
+				C5F2D7006BB35721164B3985 /* Sources */,
+				1E094187985C4903ED1AF450 /* Frameworks */,
+				34E6415916C4318F0F16661E /* Resources */,
+				42A21CDEB328DB2F92397C3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C9297D1C4CBFCE7B07EA913 /* PBXTargetDependency */,
+			);
+			name = "Pods-CircleRippleButton_Example-CircleRippleButton";
+			productName = "Pods-CircleRippleButton_Example-CircleRippleButton";
+			productReference = 97E4BCD619D49F15F2FDB5F5 /* CircleRippleButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C799C00E29F0C0AA3148BE3D /* Pods-CircleRippleButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BF0FBABD5CD9FF80352567 /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Tests" */;
+			buildPhases = (
+				689B0B0012A648E65D1A646C /* Sources */,
+				D59E3D788324BA861C0BFB2B /* Frameworks */,
+				E0625CA2F621229F4907BF02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BD237598736AA7BA6F8403C /* PBXTargetDependency */,
+			);
+			name = "Pods-CircleRippleButton_Tests";
+			productName = "Pods-CircleRippleButton_Tests";
+			productReference = 6CBCEEEE1D4D481E25E53F30 /* Pods_CircleRippleButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953091C56F81F6D9BAA80731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 3FAB37AD2B083A5B450650FC /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5218BD9FC34B2AE4B195D32;
+			productRefGroup = EB04A715207D1915369CF68B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				126ED611C71251D3EC889FF3 /* Pods-CircleRippleButton_Example */,
+				C26658CF0BDA044C4C61081C /* Pods-CircleRippleButton_Example-CircleRippleButton */,
+				43C3F62505F1F053AFE92C32 /* Pods-CircleRippleButton_Example-CircleRippleButton-CircleRippleButton */,
+				C799C00E29F0C0AA3148BE3D /* Pods-CircleRippleButton_Tests */,
+				49DD398001B41784B7330CE3 /* Pods-CircleRippleButton_Tests-CircleRippleButton */,
+				82A77998B5E2C3C56CF544F5 /* Pods-CircleRippleButton_Tests-CircleRippleButton-CircleRippleButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A9B298D18083ED02138D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E6415916C4318F0F16661E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4BF0C7D8647E1A6546203A /* CircleRippleButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8741911BEAC760AE450CE30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB406AF400EC3EDF1FFD7BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6EC5D4FC6452A53CAFB7D3 /* CircleRippleButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631FC7467CCC0964181D05AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8E7E06367E0E43EBA216EC /* Pods-CircleRippleButton_Tests-CircleRippleButton-dummy.m in Sources */,
+				6DBFD29526489B4407F9AD09 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689B0B0012A648E65D1A646C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF18125F16162F037F68CF2 /* Pods-CircleRippleButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AA93068D64F38485E12443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92462591B93FA4C9880326A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32CB94FB4D821BB13BE98DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1A58119636ABA7A1D1138F /* Pods-CircleRippleButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F2D7006BB35721164B3985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEEA62A8BEF83BDCB4DF6AD /* Pods-CircleRippleButton_Example-CircleRippleButton-dummy.m in Sources */,
+				C8FAFFD2C5A8788D1DBC33F0 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C9297D1C4CBFCE7B07EA913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CircleRippleButton_Example-CircleRippleButton-CircleRippleButton";
+			target = 43C3F62505F1F053AFE92C32 /* Pods-CircleRippleButton_Example-CircleRippleButton-CircleRippleButton */;
+			targetProxy = 4FE50D528A32F8CC6B2B37CA /* PBXContainerItemProxy */;
+		};
+		7BD237598736AA7BA6F8403C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CircleRippleButton_Tests-CircleRippleButton";
+			target = 49DD398001B41784B7330CE3 /* Pods-CircleRippleButton_Tests-CircleRippleButton */;
+			targetProxy = BF277426F845607A19C59BB1 /* PBXContainerItemProxy */;
+		};
+		9771E06AD4FE855E4B9A7669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CircleRippleButton_Example-CircleRippleButton";
+			target = C26658CF0BDA044C4C61081C /* Pods-CircleRippleButton_Example-CircleRippleButton */;
+			targetProxy = 29617017FDC00432BC3D7762 /* PBXContainerItemProxy */;
+		};
+		F5913E7FBF8E9A7C20516CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CircleRippleButton_Tests-CircleRippleButton-CircleRippleButton";
+			target = 82A77998B5E2C3C56CF544F5 /* Pods-CircleRippleButton_Tests-CircleRippleButton-CircleRippleButton */;
+			targetProxy = 7648230454B59DB141685301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		030C60DF66AC0E61998348AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D695340F09F5B322D4756869 /* Pods-CircleRippleButton_Tests-CircleRippleButton-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CircleRippleButton_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CircleRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1BD851530E829BA004EB0DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE3F3B72A5BEEC23E25C397 /* Pods-CircleRippleButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleRippleButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleRippleButton_Tests/Pods-CircleRippleButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CircleRippleButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2305EC50F0E6EEFB116CA6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26FCF5B14391A485FAC7F888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB6BD187522017CF955C5FD /* Pods-CircleRippleButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleRippleButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleRippleButton_Example/Pods-CircleRippleButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CircleRippleButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D816170D0D1A241A01D1C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D695340F09F5B322D4756869 /* Pods-CircleRippleButton_Tests-CircleRippleButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleRippleButton_Tests-CircleRippleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CircleRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52CA198A2D2F24D346B5E168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8405FF3C58A3B8BDBF353E /* Pods-CircleRippleButton_Example-CircleRippleButton-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CircleRippleButton_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CircleRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7957D7826830F8E3E27AC79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D695340F09F5B322D4756869 /* Pods-CircleRippleButton_Tests-CircleRippleButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleRippleButton_Tests-CircleRippleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleRippleButton_Tests-CircleRippleButton/Pods-CircleRippleButton_Tests-CircleRippleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CircleRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CECEC04678AA1B7039A7653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8405FF3C58A3B8BDBF353E /* Pods-CircleRippleButton_Example-CircleRippleButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CircleRippleButton_Example-CircleRippleButton/Pods-CircleRippleButton_Example-CircleRippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleRippleButton_Example-CircleRippleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleRippleButton_Example-CircleRippleButton/Pods-CircleRippleButton_Example-CircleRippleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CircleRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		854647AD96ED2866969B6828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B927E3C2B3371E0B2C5003 /* Pods-CircleRippleButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleRippleButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleRippleButton_Example/Pods-CircleRippleButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CircleRippleButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EB9C71DED6F49F5B8777028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8405FF3C58A3B8BDBF353E /* Pods-CircleRippleButton_Example-CircleRippleButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CircleRippleButton_Example-CircleRippleButton/Pods-CircleRippleButton_Example-CircleRippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleRippleButton_Example-CircleRippleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleRippleButton_Example-CircleRippleButton/Pods-CircleRippleButton_Example-CircleRippleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CircleRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9033B3955546473B485149C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		933CEC411127EF3097453735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D695340F09F5B322D4756869 /* Pods-CircleRippleButton_Tests-CircleRippleButton-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CircleRippleButton_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CircleRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BAB8ACF2B762D694852E5958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8405FF3C58A3B8BDBF353E /* Pods-CircleRippleButton_Example-CircleRippleButton-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CircleRippleButton_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CircleRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C70E68B3715D52939C5F52E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AC113548C10156BD32B1C8 /* Pods-CircleRippleButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleRippleButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleRippleButton_Tests/Pods-CircleRippleButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CircleRippleButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3287F8C6B0D74906D6B97947 /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Example-CircleRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CECEC04678AA1B7039A7653 /* Debug */,
+				8EB9C71DED6F49F5B8777028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAB37AD2B083A5B450650FC /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2305EC50F0E6EEFB116CA6FA /* Debug */,
+				9033B3955546473B485149C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7290566D8AD6C6D1F7F28D /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Example-CircleRippleButton-CircleRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB8ACF2B762D694852E5958 /* Debug */,
+				52CA198A2D2F24D346B5E168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEBBBD4D89035506718CC9C /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Tests-CircleRippleButton-CircleRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933CEC411127EF3097453735 /* Debug */,
+				030C60DF66AC0E61998348AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BF0FBABD5CD9FF80352567 /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70E68B3715D52939C5F52E7 /* Debug */,
+				1BD851530E829BA004EB0DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8775B76B649F5F4988D7406 /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Tests-CircleRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D816170D0D1A241A01D1C0C /* Debug */,
+				7957D7826830F8E3E27AC79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6FC002F697B717B9B04D49 /* Build configuration list for PBXNativeTarget "Pods-CircleRippleButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FCF5B14391A485FAC7F888 /* Debug */,
+				854647AD96ED2866969B6828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 953091C56F81F6D9BAA80731 /* Project object */;
+}

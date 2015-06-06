@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525DE0331B22D2F600A3E4FB /* CircleRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DE0321B22D2F600A3E4FB /* CircleRippleButton.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		4FE80600F056AD41FB764D50 /* Pods-CircleRippleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleRippleButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleRippleButton_Tests/Pods-CircleRippleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		525DE0321B22D2F600A3E4FB /* CircleRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleRippleButton.swift; sourceTree = "<group>"; };
 		56D70489C02E0B473BB9FFE8 /* Pods-CircleRippleButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleRippleButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleRippleButton_Tests/Pods-CircleRippleButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CircleRippleButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleRippleButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,9 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		525DE0311B22D2F600A3E4FB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				525DE0321B22D2F600A3E4FB /* CircleRippleButton.swift */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				525DE0311B22D2F600A3E4FB /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CircleRippleButton */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -359,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				525DE0331B22D2F600A3E4FB /* CircleRippleButton.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

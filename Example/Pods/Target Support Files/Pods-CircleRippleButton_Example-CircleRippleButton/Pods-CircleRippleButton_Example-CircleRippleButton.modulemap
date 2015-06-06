@@ -1,0 +1,6 @@
+framework module CircleRippleButton {
+  umbrella header "Pods-CircleRippleButton_Example-CircleRippleButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
