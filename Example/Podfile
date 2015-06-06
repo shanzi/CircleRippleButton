@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'CircleRippleButton_Example', :exclusive => true do
+  pod "CircleRippleButton", :path => "../"
+end
+
+target 'CircleRippleButton_Tests', :exclusive => true do
+  pod "CircleRippleButton", :path => "../"
+
+  
+end
