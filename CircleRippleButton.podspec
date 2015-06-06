@@ -10,18 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "CircleRippleButton"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CircleRippleButton."
+  s.summary          = "A circle button shows ripple when tapped."
   s.description      = <<-DESC
-                       An optional longer description of CircleRippleButton
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        # CircleRippleButton
+                        A simple circle button shows ripples on tap
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CircleRippleButton"
+  s.homepage         = "https://github.com/shanzi/CircleRippleButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Chase Zhang" => "yun.er.run@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CircleRippleButton.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/shanzi/CircleRippleButton.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
